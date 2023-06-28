@@ -21,10 +21,10 @@ body {
     margin-bottom: 20px;
 
     &.plus {
-      color: #2a9d8f;
+      color: #00babf;
     }
     &.minus {
-      color: #e63946;
+      color: #d149d1;
     }
   }
 
@@ -46,17 +46,17 @@ body {
     transition: all 0.05s ease-in-out;
 
     &.minus {
-      background-color: #e63946;
+      background-color: #d149d1;
       color: #fff;
-      box-shadow: 0 4px 0 darken(#e63946, 10%);
-      border: 1px solid darken(#e63946, 15%);
+      box-shadow: 0 4px 0 darken(#d149d1, 10%);
+      border: 1px solid darken(#d149d1, 15%);
     }
 
     &.plus {
-      background-color: #2a9d8f;
+      background-color: #00babf;
       color: #fff;
-      box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
-      border: 1px solid darken(#2a9d8f, 15%);
+      box-shadow: 0 4px 0 darken(#00babf, 10%);
+      border: 1px solid darken(#00babf, 15%);
     }
 
     &:hover {
