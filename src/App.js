@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h2>Comptoir</h2>
+        <h2>Mon comptoir</h2>
         <h1>{count}</h1>
         <button onClick={onClickMoins} className="minus">- Moins</button>
         <button onClick={onClickPlus} className="plus">Plus +</button>
